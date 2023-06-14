@@ -323,7 +323,7 @@ bold {
 }
 
 #d {
-  top: 30%;
+  top: 20%;
   left: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1453,7 +1453,8 @@ footer h4 {
   }
   #d {
     max-width: 375px;
-    left: 2%;
+    left: 0;
+    margin: auto;
   }
   .swiper {
     height: 635px;
