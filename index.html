@@ -129,15 +129,16 @@
     <dialog id="d">
         <form action="" method="post">
             <input class="form-control" type="text" name="name" placeholder="Ім'я"><br>
-            <input class="form-control" type="phone" name="phone" placeholder="Телефон" required><br>
-            <input class="form-control" type="email" name="email" placeholder="Пошта" required><br>
+            <input class="form-control" type="phone" name="phone" placeholder="Телефон" ><br>
+            <input class="form-control" type="email" name="email" placeholder="Пошта" ><br>
             <input class="form-control" type="text" name="company" placeholder="Назва компанії"><br>
             <input class="form-control" type="text" name="city" placeholder="Місто"><br>
             <textarea  name="message" placeholder="Коментар"></textarea><br>
+            <div id="status"></div>
             <input type="submit" value="Відправити">
             <button onclick="d.close()">X</button>
         </form>
-        <div id="status"></div>
+        
     </dialog>
     <!-- МОДАЛКА ФОРМЫ -->
 

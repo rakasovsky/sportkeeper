@@ -34,7 +34,16 @@
           <li>Four</li>
           <li>Five</li>
         </ul>
-      </div>
+    </div>
+    <button popovertarget="foo" popovertargetaction="show">
+        Show a popover
+      </button>
+      
+      <article popover="auto" id="foo">
+        This is a popover article!
+        <button popovertarget="foo" popovertargetaction="hide">Close</button>
+      </article>
+
 </body>
 <style>
     dialog {
